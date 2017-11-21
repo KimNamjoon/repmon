@@ -7,9 +7,9 @@ for line in open('C:/Users/student/Desktop/bts.txt'):
     lines += 1
     letters += len(line)
  
-    pos = 'out'
+    pos = 'out' ##показатель того, в слове мы или же нет
     for letter in line:
-        if letter != ' ' and pos == 'out':
+        if letter != ' ' and pos == 'out': ##условие того, что мы находим новое слово
             words += 1
             pos = 'in'
         elif letter == ' ':
@@ -17,7 +17,6 @@ for line in open('C:/Users/student/Desktop/bts.txt'):
  
 print("Lines:", lines)
 print("Words:", words)
-print("Letters:", letters)
 
 
 
