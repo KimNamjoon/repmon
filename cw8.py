@@ -10,4 +10,4 @@ for word in a:
         d[word] += 1
     else:
         d[word] = 1
-print(d)
+for 
